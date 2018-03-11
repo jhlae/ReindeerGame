@@ -1,0 +1,170 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+		<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="60dp"
+	    android:gravity="center_horizontal" 
+        android:layout_gravity="center_horizontal" >
+			    
+		<TextView
+		    android:id="@+id/labelSpeed"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content"
+		    android:gravity="left"
+		    android:paddingTop="20dp"
+		    android:text="@string/label_speed" />
+
+		</LinearLayout>
+		
+	<NumberPicker
+	    android:id="@+id/speedPick"
+	    android:layout_width="150dip"
+	    android:layout_height="150dip"
+	    android:layout_gravity="center">
+
+	</NumberPicker> 
+
+	
+	
+	<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="30dp"
+	    android:gravity="center_horizontal" 
+        android:layout_gravity="center_horizontal" >
+			    
+		<TextView
+		    android:id="@+id/labelDistance"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content"
+		    android:background="@color/label_background"
+		    android:gravity="left"
+		    android:padding="5dp"
+		    android:text="@string/label_distance"
+		    android:textColor="@color/translucent_white" />
+	    
+		<TextView
+		    android:id="@+id/valueDistance"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content"
+		    android:gravity="left"
+		    android:padding="5dp" />
+    
+	</LinearLayout>
+
+	<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="30dp"
+	    android:gravity="center_horizontal" 
+        android:layout_gravity="center_horizontal" >
+			    
+		<TextView
+		    android:id="@+id/labelAmmo"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content"
+		    android:background="@color/label_background"
+		    android:gravity="left"
+		    android:padding="5dp"
+		    android:text="@string/label_ammo"
+		    android:textColor="@color/translucent_white" />
+	    
+		<TextView
+		    android:id="@+id/valueAmmo"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content"
+		    android:padding="5dp" />
+    
+	</LinearLayout>
+	
+		<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="30dp"
+	    android:gravity="center_horizontal" 
+        android:layout_gravity="center_horizontal" >
+			    
+		<TextView
+		    android:id="@+id/labelWolfSays"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content"
+		    android:background="@color/label_background"
+		    android:gravity="left"
+		    android:padding="5dp"
+		    android:text="@string/label_wolf_says"
+		    android:textColor="@color/translucent_white" />
+	    
+		<TextView
+		    android:id="@+id/valueWolfSays"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content"
+		    android:padding="5dp" />
+    
+	</LinearLayout>
+	
+			<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="30dp"
+	    android:gravity="center_horizontal" 
+        android:layout_gravity="center_horizontal" >
+			    
+		<TextView
+		    android:id="@+id/labelBearSays"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content"
+		    android:background="@color/label_background"
+		    android:gravity="left"
+		    android:padding="5dp"
+		    android:text="@string/label_bear_says"
+		    android:textColor="@color/translucent_white" />
+	    
+		<TextView
+		    android:id="@+id/valueBearSays"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content"
+		    android:padding="5dp" />
+    
+	</LinearLayout>
+	
+			
+		
+<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="50dp"   
+	    android:gravity="center_horizontal" 
+        android:layout_gravity="center_horizontal" >
+        
+	    <Button
+	        android:id="@+id/button_move"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/button_move" />
+
+	    <Button 
+	        android:id="@+id/button_eat"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/button_eat" />
+	     <Button 
+	        android:id="@+id/button_restart"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/button_restart" />
+
+	      <Button
+	          android:id="@+id/button_kick"
+	          style="@color/red"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:text="@string/button_kick" />
+
+	</LinearLayout>
+	
+</LinearLayout>
